@@ -20,6 +20,9 @@ class _LoadScreenState extends State<LoadScreen> {
               child: CircularProgressIndicator(),
             ),
             Container(
+              margin: EdgeInsets.only(
+                top: 10,
+              ),
               child: Text(
                 'Carregando',
                 style: TextStyle(

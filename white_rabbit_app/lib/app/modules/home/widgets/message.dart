@@ -23,6 +23,7 @@ class _MessageBoxState extends State<MessageBox> {
           : Alignment.bottomLeft,
       child: Container(
         margin: EdgeInsets.only(
+          top: 5,
           left: widget.message.messageIsMine ? 0 : 10,
           right: widget.message.messageIsMine ? 10 : 0,
           bottom: 10,

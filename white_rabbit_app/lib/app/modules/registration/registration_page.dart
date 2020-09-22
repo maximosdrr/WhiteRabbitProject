@@ -7,8 +7,7 @@ import 'registration_controller.dart';
 
 class RegistrationPage extends StatefulWidget {
   final String title;
-  const RegistrationPage({Key key, this.title = "Registration"})
-      : super(key: key);
+  const RegistrationPage({Key key, this.title = "Cadastro"}) : super(key: key);
 
   @override
   _RegistrationPageState createState() => _RegistrationPageState();
