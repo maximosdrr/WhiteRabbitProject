@@ -1,5 +1,4 @@
-import { userInfo } from 'os';
-import { Message } from 'src/modules/messenger/entities/message.entity';
+import { Message } from './message.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()

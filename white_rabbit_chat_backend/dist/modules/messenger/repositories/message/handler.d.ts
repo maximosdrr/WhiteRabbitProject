@@ -1,4 +1,4 @@
-import { Message } from '../../entities/message.entity';
+import { Message } from '../../../../entities/message.entity';
 import { MessageRepo } from './repository';
 export declare class MessageRepositoryHandler {
     private readonly messageRepo;

@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserController = void 0;
 const common_1 = require("@nestjs/common");
 const jwt_auth_guard_1 = require("../auth/guards/jwt-auth.guard");
-const user_entity_1 = require("./entities/user.entity");
+const user_entity_1 = require("../../entities/user.entity");
 const user_gateway_1 = require("./user.gateway");
 const user_service_1 = require("./user.service");
 let UserController = class UserController {

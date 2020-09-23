@@ -13,8 +13,6 @@ const auth_module_1 = require("./modules/auth/auth.module");
 const messenger_module_1 = require("./modules/messenger/messenger.module");
 const config_1 = require("@nestjs/config");
 const typeorm_1 = require("@nestjs/typeorm");
-const user_entity_1 = require("./modules/user/entities/user.entity");
-const message_entity_1 = require("./modules/messenger/entities/message.entity");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -24,19 +22,10 @@ AppModule = __decorate([
             auth_module_1.AuthModule,
             messenger_module_1.MessengerModule,
             config_1.ConfigModule.forRoot({
-                envFilePath: ['src/env/orm.config.env', 'src/env/api.secret.env'],
+                envFilePath: ['src/env/api.secret.env', 'ormConfig.env'],
                 isGlobal: true,
             }),
-            typeorm_1.TypeOrmModule.forRoot({
-                type: 'mysql',
-                host: 'localhost',
-                port: 3306,
-                username: 'root',
-                password: '',
-                database: 'white_rabbit',
-                entities: [user_entity_1.User, message_entity_1.Message],
-                synchronize: true,
-            }),
+            typeorm_1.TypeOrmModule.forRoot(),
         ],
         controllers: [],
         providers: [],

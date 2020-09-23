@@ -1,4 +1,4 @@
-import { Message } from 'src/modules/messenger/entities/message.entity';
+import { Message } from 'src/modules/entities/message.entity';
 export declare class User {
     id?: string;
     name: string;

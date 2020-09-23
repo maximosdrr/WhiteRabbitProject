@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.MessengerController = void 0;
 const common_1 = require("@nestjs/common");
 const jwt_auth_guard_1 = require("../auth/guards/jwt-auth.guard");
-const message_entity_1 = require("./entities/message.entity");
+const message_entity_1 = require("../../entities/message.entity");
 const messenger_gateway_1 = require("./messenger.gateway");
 const messenger_service_1 = require("./messenger.service");
 let MessengerController = class MessengerController {
@@ -25,7 +25,7 @@ let MessengerController = class MessengerController {
     }
     async insert(message, req) {
         message.user = req.user;
-        this.messengeGateway.handleMessage(message);
+        this.messengeGateway.handleMessage(null, message);
         return await this.messengerService.insert(message);
     }
     async findAll() {

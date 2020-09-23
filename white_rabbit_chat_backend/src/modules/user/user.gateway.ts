@@ -9,8 +9,7 @@ import {
   WebSocketServer,
 } from '@nestjs/websockets';
 import { Server } from 'http';
-import { User } from './entities/user.entity';
-import { UserService } from './user.service';
+import { User } from '../../entities/user.entity';
 
 @Injectable()
 @WebSocketGateway()
@@ -26,11 +25,17 @@ export class UserGateway
     this.logger.log(`Cliente: ${client.id} conectado`);
   }
   handleDisconnect(client: any) {
-    return null;
+    this.logger.log(`Cliente: ${client.id} desconectado`);
   }
 
   @SubscribeMessage('updateOnlineClientList')
   async updateOnlineList(payload: User[]): Promise<any> {
     this.server.emit('reciveUpdatedOnlineClientList', payload);
+  }
+
+  @SubscribeMessage('testeToServer')
+  async teste(payload: any): Promise<any> {
+    this.logger.log('Teste Recebido ' + payload);
+    this.server.emit('testeToClient', 'Teste bem sucessido');
   }
 }

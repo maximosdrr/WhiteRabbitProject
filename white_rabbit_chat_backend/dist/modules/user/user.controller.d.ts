@@ -1,4 +1,4 @@
-import { User } from './entities/user.entity';
+import { User } from '../../entities/user.entity';
 import { UserGateway } from './user.gateway';
 import { UserService } from './user.service';
 export declare class UserController {

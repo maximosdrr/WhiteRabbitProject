@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Message } from './entities/message.entity';
+import { Message } from '../../entities/message.entity';
 import { MessageRepositoryHandler } from './repositories/message/handler';
 
 @Injectable()

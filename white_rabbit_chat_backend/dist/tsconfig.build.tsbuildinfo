@@ -2696,14 +2696,14 @@
         "signature": "59c55cb85d5940fd380c74b9a1495db1db749b957e7b423d465b961561fdcc60",
         "affectsGlobalScope": false
       },
-      "../src/modules/messenger/entities/message.entity.ts": {
-        "version": "532724538908b233c6be120c84651ec88109b07230b0b82bcd3c286d041af6e4",
-        "signature": "5f9135dd64a0d7ad34ea74899909f04040a827178af70d57317e22e01b9b9c04",
+      "../src/entities/message.entity.ts": {
+        "version": "0f85a0b3d715f174c917caaabcffc60696cf498b887b4819cee3209b558370c0",
+        "signature": "81c35c5fe119fce83821cbc62e86d9c01179209604c623178a397bf1bc191d4b",
         "affectsGlobalScope": false
       },
-      "../src/modules/user/entities/user.entity.ts": {
-        "version": "1ac76039949075d394ec73516774f6cccf25bbc1d3c5f5be0d18bf8d9286e726",
-        "signature": "49f9404b8a16a09f00e5e3aa1983503b3b7ee2dcbf1cd0a7ea301cc11682146d",
+      "../src/entities/user.entity.ts": {
+        "version": "4f3694a42f884f4f1c244e3b353d8c94aa6b941c86b8cc3ef3884963462edf75",
+        "signature": "0f740d7768b3b8f9d06726ea4083e1b9c5928d4d98c5878c0c6721e97399415c",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
@@ -2752,18 +2752,18 @@
         "affectsGlobalScope": false
       },
       "../src/modules/user/repositories/user/repository.ts": {
-        "version": "70946a279fde293a2b5e332e74cb34e04f0c7af11340669db416cfb959ee0130",
-        "signature": "46c47c6f526d882001ef39ddc43d7f52ff83f5924a39c12c2160cbe282ef9003",
+        "version": "164b94e7fefe0ea33eb3518502ab22b2d23024eb0cd48b68e3f11c3e2704c682",
+        "signature": "5fa01889c0d90cb0e8146fea6efc8b4febe4ef3410d9811e4cb487affb755cf1",
         "affectsGlobalScope": false
       },
       "../src/modules/user/repositories/user/handler.ts": {
-        "version": "d290eb0e25b5f47992c6e108470340eb2832d2961225926add9350da436e1c53",
-        "signature": "4fab963c961a01061a88ce1b0454837f7efedf3fac60a8fe63471f434c3450b4",
+        "version": "addcd0221351e3bb9409e4a037676d0e9b7d94574f81ba7aa628dab4dbaac5ba",
+        "signature": "ebd32ce0a5e5fdde35a387148a6af49b15b6165640685bedba48f6efd6a25c61",
         "affectsGlobalScope": false
       },
       "../src/modules/user/user.service.ts": {
-        "version": "81dca2a5321b97cfba106d69989cae62d28880a8ba458d6fb10cdf7109ba2e72",
-        "signature": "b90fe7b3ec616beccc24e8bd6bdd2091d9871d3ab07f037fce2a956588caa406",
+        "version": "6f260f52a5ff8c3cf26b478422443a4a84b5224fc2b1979ea71238cf00f3dd3b",
+        "signature": "27f9df75a61ea3d03508df929158bbc3bef1ff2487f8ef2390d4e3e94189ed26",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": {
@@ -2947,13 +2947,13 @@
         "affectsGlobalScope": false
       },
       "../src/modules/user/user.gateway.ts": {
-        "version": "dc78073722059af6815ccf43c1361c783e13b0c2212df431c2f00fb5dcff5de0",
-        "signature": "e5ce864b6980d4879230b816aac40953086149a79bf8a191286aef971f5b4dd0",
+        "version": "41d47c0601efd396b9dcd4d7993d63d392e9af5169d1921185cff48979591685",
+        "signature": "e50b9b271af2704d10435cebbc562081ad88eab9995c4fa3eae301a1b0fd06eb",
         "affectsGlobalScope": false
       },
       "../src/modules/user/user.controller.ts": {
-        "version": "c6d5531fb0e483edfcb0f9f0b69a9ade606459d4ca81a567e58d40bb251d3710",
-        "signature": "25b549e046af623988ef2891576b9e1ae24f3219c644b4e435e94830521cb487",
+        "version": "552c1648a9fd01c6a86147b457a40806fa45d4d4c3a7737fae7c9af29792b434",
+        "signature": "1370c6b8fefef54e932002f402a67deba369bd7e1c5dc518624d195d539bcf6e",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -3032,42 +3032,52 @@
         "affectsGlobalScope": false
       },
       "../src/modules/auth/auth.module.ts": {
-        "version": "4057ac8a77709fe97ffc5ebe9417f3d7ec269869caecfa415292abafad015a0b",
+        "version": "e915266b3cdff980cf0abdbed78ae34cb1b34727bb9391e03ff812e6830fbadd",
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc",
         "affectsGlobalScope": false
       },
       "../src/modules/user/user.module.ts": {
-        "version": "1dd6a8c104f90831fbc4a7d9142b6bd541f44ab24e6e9485bf0e7cbd7ddd36e0",
+        "version": "28e42c96b628d8e0ddbe1b1b59d8e72efaa8a453fafe72dbc8651280b0cdcf19",
         "signature": "9e36626cb39f17790cf2403e2e54d8a74542da63e2a49aba7061133a1af26dcd",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/repositories/message/repository.ts": {
-        "version": "e1b3ac09604c2cc33c8791a09d95bb1e18cb25dc3b0c207c781c60d290995897",
-        "signature": "772e2c803e43adec8dee4c9a88da78e5c12b040530508cd8bf8b1c0c120119d7",
+        "version": "f777fdaf28bbdff7b4148a855ff4d15057404ac05b2377d6b35197e9b2b56fd6",
+        "signature": "1d87c98aa091eb299758a76bae6171572d7e8ce3009443bc3820d90dc17efeff",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/repositories/message/handler.ts": {
-        "version": "7113970cb22d90ba4e50188d32b11f9ab4a7510b08f24a1487440d7d6dbee981",
-        "signature": "5e79153d4664f2842f4dd6ffbb779d2f34b9ab5c0bc3a1d6f92a6d71aced2bab",
+        "version": "01891bf35f70b5bd9fdd7a214da4bf6d69d5d21685ed7cf9fe0fcd5ef7b7008e",
+        "signature": "ad5244404eeb1054b689cd018b45b9182799c8363f09d7b75be0e364eca0ba4b",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.service.ts": {
-        "version": "f5010412cee6f5923550efde8c82056a26d216de3b0147c4f21c493a80b80137",
-        "signature": "5775b8e3401c9887c3050943f1551ea3c07198a9200527f0d75a7ace7edd9b17",
+        "version": "d6f82234d597acc1f8dce8d03297994de80aebe3b47c0d64ac4e44d88f376051",
+        "signature": "69b52f13c082c481bc53337519eb44cddc9d4a9179975fa964814924e9444bf8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/engine.io/index.d.ts": {
+        "version": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51",
+        "signature": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/socket.io/index.d.ts": {
+        "version": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f",
+        "signature": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.gateway.ts": {
-        "version": "988ec5cf7508fae29905366b72e7bab00dd4a1e50eac3978277431f8953c4a74",
-        "signature": "3e2363bdc78c7e0594c319cf323cc387e00392f378d06961732a8327215f37ae",
+        "version": "7bc15a624e924a685defbdddd81b6c57e7b8717100b89d65e44e8d04096fb995",
+        "signature": "8ee1c5502fe4015652f9ccdd3e4bc5535b045f86c1ff97aaf7a42b88d739737e",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.controller.ts": {
-        "version": "3be3c9d060ac728b07a0318230021e824a278f81d5fdfaabbfe976977dcbf89a",
-        "signature": "4d162ff1dd8e9acfaa52296590cd17ade30e8bb9af8dcc1f17fd13519c53c08d",
+        "version": "65d53ef9aa3637df1458b761643c544c2027c6363b70ac1b52826c35ea6ec555",
+        "signature": "9a54a7e7fb28d140a581f439a7a7756435cb94695ed0d12e46061576e6648561",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.module.ts": {
-        "version": "7b4b1ea16c12687378481dd716a0f0040c847d4bc99a16ee9ae9cfc8706742a6",
+        "version": "1e57962a7d12233f6b37317f75521a1ae46cb7b8d5f325a474b6036c1b878871",
         "signature": "a46f7cc1654759c10554ae92eb59da6ede5b1d310d77f4be46cea157db8b3e3b",
         "affectsGlobalScope": false
       },
@@ -3132,7 +3142,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "52f06601c481ae4a4d7deba976a9191c95de26720eea33782569a83394040e40",
+        "version": "fab015650182b1cbdc9ead13c16133174865882a6ac6f6544e65430badb31e2f",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -3361,11 +3371,6 @@
         "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
         "affectsGlobalScope": false
       },
-      "../node_modules/@types/engine.io/index.d.ts": {
-        "version": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51",
-        "signature": "2bc5a885dc91b4006192c477dfae4f2856e5809c6ffbf62cc242ac010f15ab51",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/eslint-visitor-keys/index.d.ts": {
         "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
         "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
@@ -3459,11 +3464,6 @@
       "../node_modules/@types/prettier/index.d.ts": {
         "version": "38433e50f876a09a45b665837a2954003ae14606270a157491f2bb52edf10382",
         "signature": "38433e50f876a09a45b665837a2954003ae14606270a157491f2bb52edf10382",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/socket.io/index.d.ts": {
-        "version": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f",
-        "signature": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/source-list-map/index.d.ts": {
@@ -6017,11 +6017,16 @@
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/modules/auth/auth.module.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
-        "../src/modules/messenger/messenger.gateway.ts",
         "../src/modules/messenger/messenger.module.ts",
-        "../src/modules/user/entities/user.entity.ts",
         "../src/modules/user/user.module.ts"
+      ],
+      "../src/entities/message.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/entities/user.entity.ts"
+      ],
+      "../src/entities/user.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/entities/message.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -6039,11 +6044,11 @@
         "../node_modules/@nestjs/jwt/dist/jwt.service.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/auth/auth.controller.ts",
         "../src/modules/auth/auth.service.ts",
         "../src/modules/auth/strategy/jwt.strategy.ts",
         "../src/modules/auth/strategy/local.strategy.ts",
-        "../src/modules/user/entities/user.entity.ts",
         "../src/modules/user/repositories/user/handler.ts",
         "../src/modules/user/repositories/user/repository.ts"
       ],
@@ -6071,15 +6076,10 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../src/modules/auth/auth.service.ts"
       ],
-      "../src/modules/messenger/entities/message.entity.ts": [
-        "../node_modules/typeorm/index.d.ts",
-        "../src/modules/user/entities/user.entity.ts"
-      ],
       "../src/modules/messenger/messenger.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/express/index.d.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/auth/guards/jwt-auth.guard.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
         "../src/modules/messenger/messenger.gateway.ts",
         "../src/modules/messenger/messenger.service.ts"
       ],
@@ -6087,13 +6087,13 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/websockets/index.d.ts",
         "../node_modules/@types/node/http.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
-        "../src/modules/messenger/messenger.service.ts"
+        "../node_modules/@types/socket.io/index.d.ts",
+        "../src/entities/message.entity.ts"
       ],
       "../src/modules/messenger/messenger.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/messenger.controller.ts",
         "../src/modules/messenger/messenger.gateway.ts",
         "../src/modules/messenger/messenger.service.ts",
@@ -6102,40 +6102,35 @@
       ],
       "../src/modules/messenger/messenger.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/repositories/message/handler.ts"
       ],
       "../src/modules/messenger/repositories/message/handler.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/repositories/message/repository.ts"
       ],
       "../src/modules/messenger/repositories/message/repository.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts"
-      ],
-      "../src/modules/user/entities/user.entity.ts": [
-        "../node_modules/@types/node/os.d.ts",
-        "../node_modules/typeorm/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts"
+        "../src/entities/message.entity.ts"
       ],
       "../src/modules/user/repositories/user/handler.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/modules/user/entities/user.entity.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/user/repositories/user/repository.ts"
       ],
       "../src/modules/user/repositories/user/repository.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/typeorm/index.d.ts",
-        "../src/modules/user/entities/user.entity.ts"
+        "../src/entities/user.entity.ts"
       ],
       "../src/modules/user/user.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/auth/guards/jwt-auth.guard.ts",
-        "../src/modules/user/entities/user.entity.ts",
         "../src/modules/user/user.gateway.ts",
         "../src/modules/user/user.service.ts"
       ],
@@ -6143,15 +6138,14 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/websockets/index.d.ts",
         "../node_modules/@types/node/http.d.ts",
-        "../src/modules/user/entities/user.entity.ts",
-        "../src/modules/user/user.service.ts"
+        "../src/entities/user.entity.ts"
       ],
       "../src/modules/user/user.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/jwt/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/auth/auth.module.ts",
-        "../src/modules/user/entities/user.entity.ts",
         "../src/modules/user/repositories/user/handler.ts",
         "../src/modules/user/repositories/user/repository.ts",
         "../src/modules/user/user.controller.ts",
@@ -6161,7 +6155,7 @@
       "../src/modules/user/user.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/passport/index.d.ts",
-        "../src/modules/user/entities/user.entity.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/user/repositories/user/handler.ts"
       ]
     },
@@ -8626,6 +8620,12 @@
         "../node_modules/typeorm/metadata/relationmetadata.d.ts",
         "../node_modules/typeorm/query-runner/queryrunner.d.ts"
       ],
+      "../src/entities/message.entity.ts": [
+        "../src/entities/user.entity.ts"
+      ],
+      "../src/entities/user.entity.ts": [
+        "../src/entities/message.entity.ts"
+      ],
       "../src/modules/auth/auth.controller.ts": [
         "../node_modules/@types/express/index.d.ts",
         "../src/modules/auth/auth.service.ts"
@@ -8647,54 +8647,49 @@
         "../node_modules/@types/passport-local/index.d.ts",
         "../src/modules/auth/auth.service.ts"
       ],
-      "../src/modules/messenger/entities/message.entity.ts": [
-        "../src/modules/user/entities/user.entity.ts"
-      ],
       "../src/modules/messenger/messenger.controller.ts": [
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/messenger.gateway.ts",
         "../src/modules/messenger/messenger.service.ts"
       ],
       "../src/modules/messenger/messenger.gateway.ts": [
         "../node_modules/@nestjs/websockets/index.d.ts",
         "../node_modules/@types/node/http.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts"
+        "../node_modules/@types/socket.io/index.d.ts",
+        "../src/entities/message.entity.ts"
       ],
       "../src/modules/messenger/messenger.service.ts": [
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/repositories/message/handler.ts"
       ],
       "../src/modules/messenger/repositories/message/handler.ts": [
-        "../src/modules/messenger/entities/message.entity.ts",
+        "../src/entities/message.entity.ts",
         "../src/modules/messenger/repositories/message/repository.ts"
       ],
       "../src/modules/messenger/repositories/message/repository.ts": [
         "../node_modules/typeorm/index.d.ts",
-        "../src/modules/messenger/entities/message.entity.ts"
-      ],
-      "../src/modules/user/entities/user.entity.ts": [
-        "../src/modules/messenger/entities/message.entity.ts"
+        "../src/entities/message.entity.ts"
       ],
       "../src/modules/user/repositories/user/handler.ts": [
-        "../src/modules/user/entities/user.entity.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/user/repositories/user/repository.ts"
       ],
       "../src/modules/user/repositories/user/repository.ts": [
         "../node_modules/typeorm/index.d.ts",
-        "../src/modules/user/entities/user.entity.ts"
+        "../src/entities/user.entity.ts"
       ],
       "../src/modules/user/user.controller.ts": [
-        "../src/modules/user/entities/user.entity.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/user/user.gateway.ts",
         "../src/modules/user/user.service.ts"
       ],
       "../src/modules/user/user.gateway.ts": [
         "../node_modules/@nestjs/websockets/index.d.ts",
         "../node_modules/@types/node/http.d.ts",
-        "../src/modules/user/entities/user.entity.ts"
+        "../src/entities/user.entity.ts"
       ],
       "../src/modules/user/user.service.ts": [
-        "../src/modules/user/entities/user.entity.ts",
+        "../src/entities/user.entity.ts",
         "../src/modules/user/repositories/user/handler.ts"
       ]
     },
@@ -9384,6 +9379,8 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
+      "../src/entities/message.entity.ts",
+      "../src/entities/user.entity.ts",
       "../src/main.ts",
       "../src/modules/auth/auth.controller.ts",
       "../src/modules/auth/auth.module.ts",
@@ -9392,14 +9389,12 @@
       "../src/modules/auth/guards/local-auth.guard.ts",
       "../src/modules/auth/strategy/jwt.strategy.ts",
       "../src/modules/auth/strategy/local.strategy.ts",
-      "../src/modules/messenger/entities/message.entity.ts",
       "../src/modules/messenger/messenger.controller.ts",
       "../src/modules/messenger/messenger.gateway.ts",
       "../src/modules/messenger/messenger.module.ts",
       "../src/modules/messenger/messenger.service.ts",
       "../src/modules/messenger/repositories/message/handler.ts",
       "../src/modules/messenger/repositories/message/repository.ts",
-      "../src/modules/user/entities/user.entity.ts",
       "../src/modules/user/repositories/user/handler.ts",
       "../src/modules/user/repositories/user/repository.ts",
       "../src/modules/user/user.controller.ts",

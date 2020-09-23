@@ -1,4 +1,4 @@
-import { User } from '../../entities/user.entity';
+import { User } from '../../../../entities/user.entity';
 import { UserRepo } from './repository';
 export declare class UserRepositoryHandler {
     private readonly userRepo;

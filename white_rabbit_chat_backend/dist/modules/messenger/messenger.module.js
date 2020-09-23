@@ -13,7 +13,7 @@ const messenger_controller_1 = require("./messenger.controller");
 const repository_1 = require("./repositories/message/repository");
 const handler_1 = require("./repositories/message/handler");
 const typeorm_1 = require("@nestjs/typeorm");
-const message_entity_1 = require("./entities/message.entity");
+const message_entity_1 = require("../../entities/message.entity");
 const messenger_gateway_1 = require("./messenger.gateway");
 let MessengerModule = class MessengerModule {
 };

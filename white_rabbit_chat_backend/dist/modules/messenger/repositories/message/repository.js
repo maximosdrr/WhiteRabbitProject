@@ -16,7 +16,7 @@ exports.MessageRepo = void 0;
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
-const message_entity_1 = require("../../entities/message.entity");
+const message_entity_1 = require("../../../../entities/message.entity");
 let MessageRepo = class MessageRepo {
     constructor(db) {
         this.db = db;

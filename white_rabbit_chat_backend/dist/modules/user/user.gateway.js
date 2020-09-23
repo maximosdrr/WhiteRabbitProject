@@ -24,10 +24,14 @@ let UserGateway = class UserGateway {
         this.logger.log(`Cliente: ${client.id} conectado`);
     }
     handleDisconnect(client) {
-        return null;
+        this.logger.log(`Cliente: ${client.id} desconectado`);
     }
     async updateOnlineList(payload) {
         this.server.emit('reciveUpdatedOnlineClientList', payload);
+    }
+    async teste(payload) {
+        this.logger.log('Teste Recebido ' + payload);
+        this.server.emit('testeToClient', 'Teste bem sucessido');
     }
 };
 __decorate([
@@ -40,6 +44,12 @@ __decorate([
     __metadata("design:paramtypes", [Array]),
     __metadata("design:returntype", Promise)
 ], UserGateway.prototype, "updateOnlineList", null);
+__decorate([
+    websockets_1.SubscribeMessage('testeToServer'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], UserGateway.prototype, "teste", null);
 UserGateway = __decorate([
     common_1.Injectable(),
     websockets_1.WebSocketGateway()

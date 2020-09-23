@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import {
   OnGatewayConnection,
   OnGatewayDisconnect,
@@ -9,8 +9,8 @@ import {
   WebSocketServer,
 } from '@nestjs/websockets';
 import { Server } from 'http';
-import { Message } from './entities/message.entity';
-import { MessengerService } from './messenger.service';
+import { Client } from 'socket.io';
+import { Message } from '../../entities/message.entity';
 
 @Injectable()
 @WebSocketGateway()
@@ -28,7 +28,7 @@ export class MessengerGateway
   }
 
   @SubscribeMessage('messageToServer')
-  async handleMessage(payload: Message): Promise<any> {
+  async handleMessage(client: Client, payload: Message): Promise<any> {
     this.server.emit('msgToClient', payload);
   }
 }

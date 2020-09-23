@@ -8,9 +8,8 @@ import {
   Req,
   UseGuards,
 } from '@nestjs/common';
-import { Request } from 'express';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
-import { Message } from './entities/message.entity';
+import { Message } from '../../entities/message.entity';
 import { MessengerGateway } from './messenger.gateway';
 import { MessengerService } from './messenger.service';
 
@@ -25,7 +24,7 @@ export class MessengerController {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   async insert(@Body() message: Message, @Req() req): Promise<Message> {
     message.user = req.user;
-    this.messengeGateway.handleMessage(message);
+    this.messengeGateway.handleMessage(null, message);
     return await this.messengerService.insert(message);
   }
 

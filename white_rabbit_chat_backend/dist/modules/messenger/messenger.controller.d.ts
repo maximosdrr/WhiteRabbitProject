@@ -1,4 +1,4 @@
-import { Message } from './entities/message.entity';
+import { Message } from '../../entities/message.entity';
 import { MessengerGateway } from './messenger.gateway';
 import { MessengerService } from './messenger.service';
 export declare class MessengerController {

@@ -1,5 +1,5 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { Message } from '../../entities/message.entity';
+import { Message } from '../../../../entities/message.entity';
 import { MessageRepo } from './repository';
 
 @Injectable()

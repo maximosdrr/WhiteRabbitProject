@@ -1,5 +1,5 @@
 import { DeleteResult, Repository } from 'typeorm';
-import { Message } from '../../entities/message.entity';
+import { Message } from '../../../../entities/message.entity';
 export declare class MessageRepo {
     private readonly db;
     constructor(db: Repository<Message>);

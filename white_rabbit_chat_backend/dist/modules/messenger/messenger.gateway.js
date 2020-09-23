@@ -13,7 +13,7 @@ exports.MessengerGateway = void 0;
 const common_1 = require("@nestjs/common");
 const websockets_1 = require("@nestjs/websockets");
 const http_1 = require("http");
-const message_entity_1 = require("./entities/message.entity");
+const message_entity_1 = require("../../entities/message.entity");
 let MessengerGateway = class MessengerGateway {
     afterInit(server) {
         return null;
@@ -24,7 +24,7 @@ let MessengerGateway = class MessengerGateway {
     handleDisconnect(client) {
         return null;
     }
-    async handleMessage(payload) {
+    async handleMessage(client, payload) {
         this.server.emit('msgToClient', payload);
     }
 };
@@ -35,7 +35,7 @@ __decorate([
 __decorate([
     websockets_1.SubscribeMessage('messageToServer'),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [message_entity_1.Message]),
+    __metadata("design:paramtypes", [Object, message_entity_1.Message]),
     __metadata("design:returntype", Promise)
 ], MessengerGateway.prototype, "handleMessage", null);
 MessengerGateway = __decorate([

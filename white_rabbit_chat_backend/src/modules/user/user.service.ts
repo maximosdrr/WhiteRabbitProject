@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { use } from 'passport';
-import { User } from './entities/user.entity';
+import { User } from '../../entities/user.entity';
 import { UserRepositoryHandler } from './repositories/user/handler';
 
 @Injectable()
