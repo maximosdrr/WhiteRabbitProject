@@ -21,7 +21,7 @@ let UserGateway = class UserGateway {
         return null;
     }
     handleConnection(client, ...args) {
-        this.logger.log(`Cliente: ${client.id} conectado`);
+        this.logger.warn(`Cliente: ${client.id} conectado`);
     }
     handleDisconnect(client) {
         this.logger.log(`Cliente: ${client.id} desconectado`);

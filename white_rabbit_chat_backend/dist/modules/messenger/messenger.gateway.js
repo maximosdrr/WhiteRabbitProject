@@ -15,6 +15,9 @@ const websockets_1 = require("@nestjs/websockets");
 const http_1 = require("http");
 const message_entity_1 = require("../../entities/message.entity");
 let MessengerGateway = class MessengerGateway {
+    constructor() {
+        this.logger = new common_1.Logger('AppGateway');
+    }
     afterInit(server) {
         return null;
     }
@@ -26,6 +29,7 @@ let MessengerGateway = class MessengerGateway {
     }
     async handleMessage(client, payload) {
         this.server.emit('msgToClient', payload);
+        this.logger.warn(`Nova mensagem recebida: ${payload.content}`);
     }
 };
 __decorate([

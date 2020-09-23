@@ -2947,7 +2947,7 @@
         "affectsGlobalScope": false
       },
       "../src/modules/user/user.gateway.ts": {
-        "version": "41d47c0601efd396b9dcd4d7993d63d392e9af5169d1921185cff48979591685",
+        "version": "b0e9a4a8d64f68efb66c6feba5c79798b07edae27dcae5d499b1b3fe56b0c70c",
         "signature": "e50b9b271af2704d10435cebbc562081ad88eab9995c4fa3eae301a1b0fd06eb",
         "affectsGlobalScope": false
       },
@@ -3067,8 +3067,8 @@
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.gateway.ts": {
-        "version": "7bc15a624e924a685defbdddd81b6c57e7b8717100b89d65e44e8d04096fb995",
-        "signature": "8ee1c5502fe4015652f9ccdd3e4bc5535b045f86c1ff97aaf7a42b88d739737e",
+        "version": "4b862127c59b1bc04fcf37b118ddb7fa2edce3ec10548a10a36e8a37e56b040b",
+        "signature": "d7e03ba7d452874ba92f32fc906b317fc0dac04279c0811ae4809f964fe64b32",
         "affectsGlobalScope": false
       },
       "../src/modules/messenger/messenger.controller.ts": {

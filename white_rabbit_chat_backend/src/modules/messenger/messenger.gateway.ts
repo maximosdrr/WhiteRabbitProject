@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import {
   OnGatewayConnection,
   OnGatewayDisconnect,
@@ -16,6 +16,7 @@ import { Message } from '../../entities/message.entity';
 @WebSocketGateway()
 export class MessengerGateway
   implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
+  private logger: Logger = new Logger('AppGateway');
   @WebSocketServer() server: Server;
   afterInit(server) {
     return null;
@@ -30,5 +31,6 @@ export class MessengerGateway
   @SubscribeMessage('messageToServer')
   async handleMessage(client: Client, payload: Message): Promise<any> {
     this.server.emit('msgToClient', payload);
+    this.logger.warn(`Nova mensagem recebida: ${payload.content}`);
   }
 }
